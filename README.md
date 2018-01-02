@@ -45,6 +45,8 @@ function redirect(userdata){
       window.location.replace("http://127.0.0.1:3001/profile");
     }
 ```
-* Di dalam halaman Profile, user dapat menambahkan beberapa To-Do-List yang diinginkan.
+* Di dalam halaman Profile, user dapat menambahkan beberapa `To-Do-List` yang diinginkan.
 
-* 
+* User dapat membuat `To-Do-List` dengan memasukkan _Task_ dan _Date_ di kolom yang tersedia.
+
+* _Task_ dan _Date_ yang disubmit akan muncul pada halaman yang sama.
