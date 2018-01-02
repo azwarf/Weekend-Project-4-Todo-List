@@ -2,7 +2,6 @@
 
 * Aplikasi To-Do-List-NodeJS yang dibuat ini bertujuan untuk menambahkan dan menampilkan To-Do-List dari input yang tersedia di dalam aplikasi tersebut.
 Sebelum dapat menjalankan aplikasi To-Do-List-NodeJS ini, user perlu melakukan `Sign Up` terlebih dahulu.
-Fungsi `Sign Up` dijalankan dengan menggunakan kode berikut:
 
 * Data `Sign Up` kemudian akan dimasukkan ke dalam database yang telah ditentukan. `Sign Up` memerlukan _username_ dan _password_ dari user atau pengguna.
 
