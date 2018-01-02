@@ -24,7 +24,9 @@ Sebelum dapat menjalankan aplikasi To-Do-List-NodeJS ini, user perlu melakukan `
 	return check = true;
 	}
 ```
-* Setelah `Sign Up`, aplikasi akan merespon dengan melakukan _redirect_ ke halaman `Login`.
+* Setelah `Sign Up`, aplikasi akan merespon dengan melakukan _redirect_ ke halaman `Login`, seperti berikut:
+
+<img width=100% src="Login.PNG">
 
 * Di halaman `Login`, user kembali diminta untuk memasukkan _username_ dan _password_ yang telah dimasukkan sebelumnya ke database melalui proses `Sign Up`.
 
@@ -46,6 +48,8 @@ function redirect(userdata){
     }
 ```
 * Di dalam halaman Profile, user dapat menambahkan beberapa `To-Do-List` yang diinginkan.
+
+<img width=100% src="profile.PNG">
 
 * User dapat membuat `To-Do-List` dengan memasukkan _Task_ dan _Date_ di kolom yang tersedia.
 
