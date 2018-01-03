@@ -1,0 +1,19 @@
+extends layout
+
+block content 
+	center
+		br
+		br
+		h2 Please Login!
+		br
+		label username:
+		input#username(type='text')
+		br
+		label password:
+		input#password(type='text')
+		br
+		button#submit(type='submit') LOGIN
+
+
+
+		script(src='/javascripts/checkuser.js')

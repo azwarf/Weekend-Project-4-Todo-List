@@ -1,0 +1,30 @@
+extends layout
+
+block content 
+	center
+		h3 Todo Lists
+		br
+		label Task:  
+		input.container#task(type='text' placeholder='input kegiatan')
+		br
+		label  Date:  
+		input.container#date(type='text' placeholder='yyyy-mm-dd')
+		br
+		button#add Add
+		br
+
+
+
+		ul#addLists
+
+		if currentUser
+			button#logout LOGOUT
+		else
+			button LOGIN
+
+
+
+		script(src='/javascripts/addlist.js')
+		script(src='/javascripts/showactivity.js')
+		script(src='/javascripts/logout.js')
+		
